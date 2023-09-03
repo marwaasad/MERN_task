@@ -1,0 +1,44 @@
+.c1{
+    list-style-type: none; /*removing bullets*/
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    background-color:lightblue;
+    border: 1px solid;
+}
+.c1 li a{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none; /*no underline on link*/
+}
+
+.c1 li a:hover{
+    background-color: coral;
+    color: white;
+}
+
+.c2{
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 0;
+    width:400px;
+}
+.c2 li{
+    float: left;
+    border-right: 1px solid;
+}
+.c2 li:last-child{
+    border-right: none;
+}
+.c2 a{
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    background-color:gainsboro;
+}
+
+.c2 a:hover{
+    background-color: rgb(105, 104, 104);
+    color: white;
+}
